@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юнгфрау - Альпийский рай</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта с логотипом и навигацией -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-mountain logo-icon"></i>
+                <h1>Юнгфрау <span>Альпы</span></h1>
+            </div>
+            <nav>
+                <button class="nav-btn" id="aboutBtn">О регионе</button>
+                <button class="nav-btn" id="bookingBtn">Туры и бронь</button>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Первая секция с фото и описанием -->
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Горный курорт Юнгфрау">
+            </div>
+            <div class="hero-content">
+                <h2>Юнгфрау - вершина европейских Альп</h2>
+                <p>Регион Юнгфрау по праву считается одним из самых впечатляющих в Альпах: вдохновляйтесь крупнейшим ледником и самой высокой горной станцией Европы — Юнгфрауйох.</p>
+                <p>Любуйтесь величественными водопадами, наслаждайтесь атмосферой живописных горных деревень и идеальными условиями для зимних видов спорта.</p>
+                <button class="more-info-btn" id="moreInfoBtn">
+                    <i class="fas fa-chevron-down"></i> Узнать больше о возможностях
+                </button>
+                <div class="additional-info" id="additionalInfo">
+                    <h3>Что предлагает регион Юнгфрау:</h3>
+                    <ul>
+                        <li>Подъем на самую высокую горную станцию Европы - Юнгфрауйох (3454 м)</li>
+                        <li>Экскурсия к крупнейшему леднику Алеч длиной более 20 км</li>
+                        <li>Прогулки по живописным горным деревням Гриндельвальд, Венген и Мюррен</li>
+                        <li>Самые современные горнолыжные трассы всех уровней сложности</li>
+                        <li>Летние маршруты для хайкинга с панорамными видами на Эйгер, Мёнх и Юнгфрау</li>
+                        <li>Восхитительные водопады Штауббах и Трюммельбах</li>
+                        <li>Рестораны с традиционной швейцарской кухней и видами на Альпы</li>
+                        <li>Историческая железная дорога Юнгфрау, построенная более 100 лет назад</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Промежуточная секция с фото -->
+        <section class="intermediate-section">
+            <img class="intermediate-image" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Вид на Альпы и ледник">
+            <div class="intermediate-text">
+                <h3>Ледник Алеч - природное чудо</h3>
+                <p>Крупнейший ледник в Альпах протяженностью более 20 км, объект Всемирного наследия ЮНЕСКО, поражает своей мощью и красотой в любое время года.</p>
+            </div>
+        </section>
+        
+        <!-- Галерея фото (3 фото по горизонтали) -->
+        <section class="gallery-section">
+            <h2>Достопримечательности региона</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Юнгфрауйох - горная станция">
+                    <div class="gallery-caption">
+                        <h3>Юнгфрауйох</h3>
+                        <p>Самая высокая горная станция Европы на высоте 3454 метра</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Горнолыжные трассы">
+                    <div class="gallery-caption">
+                        <h3>Зимние виды спорта</h3>
+                        <p>Более 200 км подготовленных трасс для skiing и snowboarding</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Горные деревни">
+                    <div class="gallery-caption">
+                        <h3>Альпийские деревни</h3>
+                        <p>Живописные поселения с традиционной архитектурой и уютной атмосферой</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Секция с двумя столбцами -->
+        <section class="info-section">
+            <h2>Контактная информация и расположение</h2>
+            <div class="info-columns">
+                <div class="info-column">
+                    <h3><i class="fas fa-map-marked-alt"></i> Расположение и как добраться</h3>
+                    <p><strong>Регион:</strong> Бернские Альпы, Швейцария</p>
+                    <p><strong>Основные точки доступа:</strong> Интерлакен, Гриндельвальд, Лаутербруннен</p>
+                    <p><strong>Как добраться:</strong></p>
+                    <p>• На поезде: из Цюриха или Женевы до Интерлакена, затем горная железная дорога до региона Юнгфрау</p>
+                    <p>• На автомобиле: по автомагистралям A6/A8 до Интерлакена, далее по горным дорогам (зимой обязательны зимние шины)</p>
+                    <p>• На самолете: ближайшие аэропорты в Цюрихе, Женеве и Берне</p>
+                    <p><strong>Лучшее время для посещения:</strong> круглый год (зима - для skiing, лето - для хайкинга и экскурсий)</p>
+                </div>
+                <div class="info-column">
+                    <h3><i class="fas fa-info-circle"></i> Контакты и информация</h3>
+                    <p>Для бронирования туров, получения информации о погодных условиях и доступности трасс:</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone-alt"></i> Туристический центр: +41 (33) 828 72 33</li>
+                        <li><i class="fas fa-envelope"></i> Email: info@jungfrau.ch</li>
+                        <li><i class="fas fa-globe"></i> Веб-сайт: www.jungfrau.ch</li>
+                        <li><i class="fas fa-snowflake"></i> Инфо о трассах: +41 (33) 855 10 22</li>
+                        <li><i class="fas fa-train"></i> Железная дорога: +41 (33) 828 72 33</li>
+                        <li><i class="fas fa-hotel"></i> Бронирование отелей: +41 (33) 854 12 12</li>
+                        <li><i class="fas fa-skiing"></i> Прокат оборудования: +41 (33) 854 12 80</li>
+                    </ul>
+                    <p><strong>Экстренные службы:</strong> Спасательная служба - 1414, Полиция - 117, Скорая помощь - 144</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p><span class="footer-highlight">Регион Юнгфрау</span> по праву считается одним из самых впечатляющих в Альпах: вдохновляйтесь крупнейшим ледником и самой высокой горной станцией Европы — Юнгфрауйох.</p>
+            <p>Любуйтесь величественными водопадами, наслаждайтесь атмосферой живописных горных деревень и идеальными условиями для зимних видов спорта.</p>
+            <p style="margin-top: 20px; font-size: 15px; opacity: 0.7;">© 2023 Регион Юнгфрау, Швейцария. Все права защищены. Сайт создан для демонстрации возможностей веб-разработки.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
